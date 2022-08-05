@@ -1,0 +1,175 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  margin: 170px 0 50px 0;
+  align-items: center;
+}
+
+.logoHr {
+  width: 1400px;
+  border: 1px solid black;
+  height: 0px;
+  margin: auto 20px 20px 0;
+}
+
+.logo {
+  color: gray;
+  font-size: 80px;
+  display: flex;
+}
+
+.squareOne {
+  background-color: gray;
+  width: 400px;
+  height: 400px;
+}
+
+.squareTwo {
+  background-color: gray;
+  width: 400px;
+  height: 400px;
+  margin: 0 0 0 auto;
+}
+
+.navbar {
+  margin: 0 0 0 auto;
+  padding: 50px 0 0 0;
+  width: 210px;
+}
+
+.navbarItems {
+  text-decoration: none;
+  list-style: none;
+  padding: 4px 109px 4px 4px;
+  color: white;
+  border: 2px solid white;
+  border-right: none;
+  border-radius: 2px;
+  margin: 3px 0px 3px 0;
+}
+
+.home {
+  background-color: #fff;
+  color: gray;
+  border: none;
+  padding: 3px 164px 3px 3px;
+  border-radius: 0px;
+}
+
+.parent {
+  display: flex;
+  color: gray;
+}
+
+.text {
+  margin: 0 auto 200px auto;
+  width: 1000px;
+  padding: 10px;
+}
+
+.imageOne {
+  min-width: 250px;
+  min-height: 150px;
+  max-width: 350px;
+  max-height: 250px;
+  margin: 0 auto;
+}
+
+.textBody {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: wheat;
+  font-size: bolder;
+}
+
+.formHolder{
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.formbox{
+  width: 100%;
+  border: 2px solid gray;
+  padding: 10px 20px 40px 20px;
+  margin: 30px auto 30px;
+  color: gray;
+  font-weight: bolder;
+  height: fit-content;
+
+}
+
+.formParent{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px
+}
+
+.submitButton{
+  background-color: white;
+  border: none;
+  float: right;
+  font-weight: bold;
+  color: gray;
+  margin-top: 10px;
+}
+
+.deleteButton{
+  background-color: white;
+  border: none;
+  color:gray
+}
+
+.dateInput{
+  width: 30px !important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+table{
+  width: 100%;
+  border: 2px solid gray;
+  color: gray;
+}
+
+table th{
+  font-weight: bold;
+  padding: 10px
+
+}
+
+table td{
+  padding: 10px
+}
+
+.appointmentActions, .appointmentActions:hover, .appointmentActions:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  background-color: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .formHolder{
+      display: block;
+    }
+}
+
