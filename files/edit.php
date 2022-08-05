@@ -89,7 +89,7 @@ if ($_GET['id']) {
         console.log("here")
         $(document).ready(function() {
             $.ajax({
-                url: 'aEdit.php',
+                url: '../actions/aEdit.php',
                 type: 'POST',
                 data: {
                     id: id,

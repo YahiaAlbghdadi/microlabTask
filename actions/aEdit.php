@@ -1,5 +1,5 @@
 <?php
-require_once "../actions/connection.php";
+require_once "connection.php";
 
 if (isset($_POST['action'])) {
     if ($_POST['action'] == "edit") {
