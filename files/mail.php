@@ -15,6 +15,4 @@ while ($appointments = $result->fetch_assoc()) {
         mail("albghdadiyahia5@gmail.com", "Termin Erinnerung", "Bezeichnung: {$appointments['description']}. Am: {$appointments['month']}-{$appointments['day']}.", "From: Yahia Albghdadi");
         exit;
     }
-    mail("albghdadiyahia5@gmail.com", "Termin Erinnerung", "Bezeichnung:", "From: Yahia Albghdadi");
-    exit;
 }
